@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#set -x
+
 while read ins
 do
   echo -n `echo $ins | awk -F '_' '{print $2" "$3" "}'`
