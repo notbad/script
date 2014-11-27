@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#set -x
 
 while read ins
 do
